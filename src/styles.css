@@ -7,4 +7,38 @@
 body {
     background-image: url(./images/background2.jpg);
     background-size: 100% auto;
+    height: 100vh;
+}
+
+header {
+    height: 10vh;
+    background-color: #C4A484;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 0 100px;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px #000000;
+}
+
+li:hover {
+    cursor: pointer;
+    color: #84a4c4;
+    transform: scale(1.2);
+}
+
+.activePage {
+    text-decoration: underline;
+    color: #84a4c4;
 }
