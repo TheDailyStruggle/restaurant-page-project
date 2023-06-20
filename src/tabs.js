@@ -1,17 +1,22 @@
 import _ from 'lodash';
 import './styles.css';
 import { homeComponent } from './home';
-import { home } from './tabs';
 
 const content = document.getElementById('content');
-
-homeComponent();
-
-// Tab Switch Event Listeners
 const homeTab = document.getElementById('home');
 const menuTab = document.getElementById('menu');
 const contactTab = document.getElementById('contact');
 
-homeTab.addEventListener('click', () => {
-    home();
-});
+const clearContent = function () {
+    content.innerHTML = "";
+};
+
+export const home = function () {
+    clearContent();
+    homeTab.classList.add('activePage');
+    menuTab.classList.remove('activePage');
+    contactTab.classList.remove('activePage');
+    homeComponent();
+};
+
+
