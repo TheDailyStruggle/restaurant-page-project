@@ -5,6 +5,7 @@ module.exports = {
         index: './src/index.js',
         // tabs: './src/tabs.js'
     },
+    devtool: 'inline-source-map',
     output: {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist'),
