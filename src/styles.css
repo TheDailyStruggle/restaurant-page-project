@@ -42,3 +42,26 @@ li:hover {
     text-decoration: underline;
     color: #84a4c4;
 }
+
+#content {
+    height: 90vh;
+}
+
+#contentWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+#heroImage {
+    place-self: center;
+    position: relative;
+    right: -100px;
+    filter: drop-shadow(5px 5px 10px #000);
+}
+
+#slogan {
+    place-self: center;
+    font-size: 4em;
+    color: white;
+}
