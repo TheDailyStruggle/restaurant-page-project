@@ -6,7 +6,7 @@ import { menu } from './tabs';
 
 const content = document.getElementById('content');
 
-homeComponent();
+// homeComponent();
 
 // Tab Switch Event Listeners
 const homeTab = document.getElementById('home');

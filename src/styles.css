@@ -89,3 +89,41 @@ li:hover {
 .price {
     color: #84a4c4;
 }
+
+.contactTitle {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 40px;
+    text-shadow: 2px 2px 6px #000000;
+}
+
+.contactWrapper {
+    height: 65%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+}
+
+.locationImg {
+    grid-column-start: 2;
+}
+
+.hoursAddress {
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px 6px #000000;
+}
+
+.hoursHeader,
+.addressHeader {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.addressHeader {
+    margin-top: 40px;
+}
