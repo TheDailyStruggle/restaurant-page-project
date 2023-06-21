@@ -95,12 +95,12 @@ li:hover {
     color: white;
     font-size: 3em;
     font-weight: bold;
-    margin: 40px;
+    padding-top: 40px;
     text-shadow: 2px 2px 6px #000000;
 }
 
 .contactWrapper {
-    height: 65%;
+    height: calc(90vh - 3em - 80px);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;

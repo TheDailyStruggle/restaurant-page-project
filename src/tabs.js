@@ -2,6 +2,7 @@ import _ from 'lodash';
 import './styles.css';
 import { homeComponent } from './home';
 import { menuComponent } from './menu';
+import { contactComponent } from './contact';
 
 const content = document.getElementById('content');
 const homeTab = document.getElementById('home');
@@ -26,7 +27,15 @@ export const menu = function () {
     menuTab.classList.add('activePage');
     contactTab.classList.remove('activePage');
     menuComponent();
-    console.log('menu ran');
 };
+
+export const contact = function () {
+    clearContent();
+    homeTab.classList.remove('activePage');
+    menuTab.classList.remove('activePage');
+    contactTab.classList.add('activePage');
+    contactComponent();
+};
+
 
 

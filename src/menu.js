@@ -40,5 +40,4 @@ export function menuComponent() {
     wrapper.appendChild(menuItem5);
     wrapper.appendChild(menuItem6);
     content.appendChild(wrapper);
-    console.log('menuComponent ran');
 };
